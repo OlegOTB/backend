@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is simple NodeJS Application",
+  "scripts": {
+    "start": "node app.js",
+    "serve": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Vladilen Minin <v@mail.ru>",
+  "license": "ISC",
+  "_comment_mongoose": "^4.3.1",
+  "_comment_bcrypt": "^5.1.1",
+  "_comment_bcryptjs": "^2.4.3",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.0.12",
+    "nodemon": "^3.0.3",
+    "validator": "^13.11.0"
+  }
+}
